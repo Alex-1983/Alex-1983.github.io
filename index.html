@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="GEN store - интернет-магазин">
+
+<!-- генерируйте favicon тут - https://realfavicongenerator.net/ -->
+
+<!-- <link href="favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+<link href="favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+<link href="favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+<link href="favicon/site.webmanifest" rel="manifest">
+<link color="#c84659" href="favicon/safari-pinned-tab.svg" rel="mask-icon">
+<link href="favicon/favicon.ico" rel="shortcut icon">
+<meta content="#ffffff" name="msapplication-TileColor">
+<meta content="favicon/browserconfig.xml" name="msapplication-config">
+<meta content="#ffffff" name="theme-color">
+ -->
+
+<!-- используйте только для шрифта находящегося на первом экране -->
+
+<!-- <link rel="preload" href="fonts/placeholder.woff2" as="font" crossorigin="anonymous"> -->
+
+<link rel="stylesheet" href="css/style.min.css">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:weight@400;600;700;800&display=swap" as="font" crossorigin="anonymous">
+
+    <title>GEN store — Одежда</title>
+  </head>
+
+  <body>
+    <div style="display: none;">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-arrow-breadcrumbs" viewBox="0 0 12 7">
+<path d="M0 3.35742L11.0001 3.35742" stroke="black" stroke-width="0.7"></path>
+<path d="M8.59375 1L11 3.40626L8.59375 5.81252" stroke="black" stroke-width="0.7"></path>
+</symbol><symbol id="icon-arrow-down" viewBox="0 0 7 9">
+<path d="M-1.51183e-07 4.79133L3.22703 7.99136L3.5 8.25L3.77297 7.99136L7 4.79133L6.45406 4.24996L3.87965 6.80283L3.87965 -1.69585e-07L3.12035 -1.36395e-07L3.12035 6.80321L0.545937 4.24996L-1.51183e-07 4.79133Z"></path>
+</symbol><symbol id="icon-arrow-right"><path d="M.115 5h7.429M4 1l4 4-4 4" opacity=".5" stroke="#000"></path></symbol><symbol id="icon-arrow"><path d="M0 5.541l3.227 3.2L3.5 9l.273-.259L7 5.541 6.454 5 3.88 7.553V.75h-.76v6.803L.546 5 0 5.541z" fill="#42F081"></path></symbol><symbol id="icon-car" viewBox="0 0 19 15">
+<path d="M17.9518 7.28196L16.0946 2.94863C16.0472 2.83674 15.968 2.74127 15.8667 2.67412C15.7654 2.60697 15.6466 2.57111 15.5251 2.57101H13.668V1.33291C13.668 1.16873 13.6027 1.01128 13.4867 0.895182C13.3706 0.779088 13.2131 0.713867 13.0489 0.713867H1.28702C1.12283 0.713867 0.965378 0.779088 0.849284 0.895182C0.73319 1.01128 0.667969 1.16873 0.667969 1.33291V11.8567C0.667969 12.0209 0.73319 12.1784 0.849284 12.2945C0.965378 12.4106 1.12283 12.4758 1.28702 12.4758H2.61178C2.75433 13.0003 3.06554 13.4634 3.49739 13.7936C3.92923 14.1237 4.45771 14.3026 5.0013 14.3026C5.54489 14.3026 6.07337 14.1237 6.50522 13.7936C6.93706 13.4634 7.24827 13.0003 7.39083 12.4758H11.2784C11.421 13.0003 11.7322 13.4634 12.1641 13.7936C12.5959 14.1237 13.1244 14.3026 13.668 14.3026C14.2116 14.3026 14.74 14.1237 15.1719 13.7936C15.6037 13.4634 15.9149 13.0003 16.0575 12.4758H17.3823C17.5464 12.4758 17.7039 12.4106 17.82 12.2945C17.9361 12.1784 18.0013 12.0209 18.0013 11.8567V7.52339C18.0011 7.44041 17.9843 7.35831 17.9518 7.28196ZM13.668 3.80911H15.1165L16.4413 6.90434H13.668V3.80911ZM5.0013 13.0948C4.75643 13.0948 4.51706 13.0222 4.31345 12.8862C4.10985 12.7501 3.95116 12.5568 3.85745 12.3305C3.76374 12.1043 3.73922 11.8554 3.787 11.6152C3.83477 11.375 3.95269 11.1544 4.12584 10.9813C4.29899 10.8081 4.51959 10.6902 4.75976 10.6424C4.99993 10.5946 5.24887 10.6192 5.4751 10.7129C5.70133 10.8066 5.8947 10.9653 6.03074 11.1689C6.16678 11.3725 6.2394 11.6119 6.2394 11.8567C6.2394 12.1851 6.10896 12.5 5.87677 12.7322C5.64458 12.9644 5.32967 13.0948 5.0013 13.0948ZM11.2784 11.2377H7.39083C7.24827 10.7131 6.93706 10.25 6.50522 9.91989C6.07337 9.58974 5.54489 9.41087 5.0013 9.41087C4.45771 9.41087 3.92923 9.58974 3.49739 9.91989C3.06554 10.25 2.75433 10.7131 2.61178 11.2377H1.90606V1.95196H12.4299V9.7272C12.148 9.89081 11.9012 10.1085 11.7036 10.3677C11.506 10.6269 11.3615 10.9225 11.2784 11.2377ZM13.668 13.0948C13.4231 13.0948 13.1837 13.0222 12.9801 12.8862C12.7765 12.7501 12.6178 12.5568 12.5241 12.3305C12.4304 12.1043 12.4059 11.8554 12.4537 11.6152C12.5014 11.375 12.6194 11.1544 12.7925 10.9813C12.9657 10.8081 13.1863 10.6902 13.4264 10.6424C13.6666 10.5946 13.9155 10.6192 14.1418 10.7129C14.368 10.8066 14.5614 10.9653 14.6974 11.1689C14.8335 11.3725 14.9061 11.6119 14.9061 11.8567C14.9061 12.1851 14.7756 12.5 14.5434 12.7322C14.3112 12.9644 13.9963 13.0948 13.668 13.0948ZM16.7632 11.2377H16.0575C15.9206 10.7075 15.6118 10.2376 15.1795 9.90158C14.7471 9.56555 14.2156 9.38231 13.668 9.38053V8.14244H16.7632V11.2377Z" fill="black"></path>
+</symbol><symbol id="icon-cart"><path d="M9.237 0C6.944 0 5.062 1.602 5.062 3.553v.71H.94l-.051.667-.835 12.79-.053.754h18.474l-.052-.756-.835-12.79-.053-.665h-4.122v-.71C13.412 1.602 11.53 0 9.237 0zm0 1.421c.665 0 1.302.225 1.771.624.47.4.734.942.734 1.508v.71h-5.01v-.71c0-.566.264-1.108.734-1.508.47-.4 1.107-.624 1.771-.624zM2.505 5.684h2.557v2.132h1.67V5.684h5.01v2.132h1.67V5.684h2.558l.73 11.369H1.775l.73-11.369z"></path></symbol><symbol id="icon-close-search"><path fill="#000" fill-opacity=".6" d="M0 11.147L11.147 0l.97.97L.968 12.116z"></path><path fill="#000" fill-opacity=".6" d="M.97.181l11.147 11.147-.97.97L0 1.15z"></path></symbol><symbol id="icon-close"><path d="M.293 18.291a1 1 0 101.414 1.414L10 11.413l8.292 8.292a1 1 0 101.414-1.414l-8.292-8.292 8.292-8.292A1 1 0 1018.291.293L9.999 8.585 1.707.293A1 1 0 10.293 1.707L8.585 10 .293 18.291z"></path></symbol><symbol id="icon-fb" viewBox="0 0 23 23"><path d="M20.6 0H2.992a2.4 2.4 0 00-2.4 2.4v17.607a2.4 2.4 0 002.4 2.401h6.866V14.79H6.707v-3.586h3.15V8.471c0-3.109 1.851-4.826 4.686-4.826 1.357 0 2.777.242 2.777.242V6.94h-1.564c-1.541 0-2.022.956-2.022 1.937v2.328h3.44l-.55 3.586h-2.89v7.618H20.6a2.401 2.401 0 002.401-2.4V2.4A2.401 2.401 0 0020.6 0z"></path></symbol><symbol id="icon-gift" viewBox="0 0 28 30">
+<path d="M20.242 8.11716H25.6369C26.9299 8.11716 28 9.0795 28 10.3347V17.9498H15.1592V9.0795C14.7134 8.95397 14.3121 8.78661 14.0446 8.53556C14 8.53556 14 8.49372 13.9554 8.49372C13.9554 8.49372 13.9554 8.53556 13.9108 8.53556C13.5987 8.78661 13.242 8.95397 12.8408 9.0795V17.9498H0V10.3347C0 9.0795 1.02548 8.11716 2.31847 8.11716H7.75796C7.13376 7.82427 6.55414 7.40586 6.06369 7.02929C3.92357 5.1046 3.52229 2.42678 5.21656 0.920502C5.92994 0.334728 6.86624 0 7.89172 0C9.36306 0 10.879 0.543933 12.172 1.67364C12.8854 2.30126 13.5541 3.17992 13.9554 4.01674C14.4013 3.17992 15.0701 2.30126 15.7834 1.67364C17.0318 0.543933 18.6369 0 20.0637 0C21.1338 0 22.0701 0.334728 22.7389 0.920502C24.4331 2.42678 24.0318 5.1046 21.8471 7.02929C21.4013 7.40586 20.8217 7.82427 20.242 8.11716ZM12.3057 6.90377C12.4841 6.5272 12.0382 4.60251 10.5669 3.30544C9.80892 2.63598 8.78344 2.25941 7.89172 2.25941C7.6242 2.25941 7.17834 2.30126 6.86624 2.5523C6.77707 2.63598 6.50955 2.80335 6.50955 3.2636C6.50955 3.80753 6.86624 4.64435 7.71338 5.35565C8.78344 6.31799 10.4777 6.98745 11.7261 6.98745C12.1274 6.98745 12.3057 6.90377 12.3057 6.90377ZM15.6943 6.90377C15.6943 6.90377 15.9172 6.98745 16.2739 6.98745C17.5223 6.98745 19.2166 6.31799 20.2866 5.35565C21.1338 4.64435 21.4013 3.80753 21.4013 3.2636C21.4013 2.80335 21.1783 2.63598 21.1338 2.5523C20.8217 2.30126 20.3312 2.25941 20.0637 2.25941C19.2166 2.25941 18.1465 2.63598 17.3885 3.30544C15.9618 4.60251 15.4713 6.48536 15.6943 6.94561V6.90377ZM12.8408 30H2.31847C1.02548 30 0 29.0377 0 27.8243V20.1674H12.8408V30ZM25.6369 30H15.1592V20.1674H28V27.8243C28 29.0377 26.9299 30 25.6369 30Z" fill="black"></path>
+</symbol><symbol id="icon-heart" viewBox="0 0 20 19">
+<path d="M14.3359 1.20703C11.3526 1.20703 9.88213 4.22684 9.88213 4.22684C9.88213 4.22684 8.41162 1.20703 5.42832 1.20703C3.00381 1.20703 1.08388 3.28975 1.05906 5.77496C1.00851 10.9336 5.04461 14.6022 9.46855 17.6853C9.59051 17.7705 9.73461 17.816 9.88213 17.816C10.0296 17.816 10.1737 17.7705 10.2957 17.6853C14.7192 14.6022 18.7553 10.9336 18.7052 5.77496C18.6804 3.28975 16.7604 1.20703 14.3359 1.20703Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</symbol><symbol id="icon-insta" viewBox="0 0 23 23"><path d="M11.311 7.541a3.78 3.78 0 00-3.773 3.773 3.78 3.78 0 003.773 3.773 3.78 3.78 0 003.773-3.773 3.78 3.78 0 00-3.773-3.773zm11.316 3.773c0-1.562.014-3.11-.074-4.67-.087-1.812-.5-3.42-1.825-4.744C19.4.573 17.795.162 15.984.074c-1.562-.087-3.11-.073-4.67-.073-1.562 0-3.11-.014-4.67.073C4.832.162 3.224.575 1.9 1.9.573 3.228.162 4.832.074 6.644c-.087 1.562-.073 3.11-.073 4.67s-.014 3.11.073 4.67c.088 1.812.501 3.42 1.826 4.744 1.327 1.328 2.932 1.738 4.744 1.826 1.562.088 3.11.073 4.67.073 1.562 0 3.11.015 4.67-.073 1.812-.088 3.42-.501 4.744-1.826 1.327-1.327 1.738-2.932 1.825-4.744.091-1.56.074-3.107.074-4.67zM11.311 17.12a5.797 5.797 0 01-5.805-5.805 5.797 5.797 0 015.805-5.805 5.797 5.797 0 015.805 5.805 5.797 5.797 0 01-5.805 5.805zm6.043-10.492c-.75 0-1.356-.606-1.356-1.356 0-.75.606-1.356 1.356-1.356a1.354 1.354 0 01.96 2.315 1.353 1.353 0 01-.96.397z"></path></symbol><symbol id="icon-map" viewBox="0 0 12 16">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6 16C6 16 12 10.314 12 6C12 4.4087 11.3679 2.88258 10.2426 1.75736C9.11742 0.632141 7.5913 0 6 0C4.4087 0 2.88258 0.632141 1.75736 1.75736C0.632141 2.88258 2.37122e-08 4.4087 0 6C0 10.314 6 16 6 16ZM6 9C6.79565 9 7.55871 8.68393 8.12132 8.12132C8.68393 7.55871 9 6.79565 9 6C9 5.20435 8.68393 4.44129 8.12132 3.87868C7.55871 3.31607 6.79565 3 6 3C5.20435 3 4.44129 3.31607 3.87868 3.87868C3.31607 4.44129 3 5.20435 3 6C3 6.79565 3.31607 7.55871 3.87868 8.12132C4.44129 8.68393 5.20435 9 6 9Z" fill="black"></path>
+</symbol><symbol id="icon-menu-horizontal" viewBox="0 0 32 32">
+<path d="M8 18C9.10457 18 10 17.1046 10 16C10 14.8954 9.10457 14 8 14C6.89543 14 6 14.8954 6 16C6 17.1046 6.89543 18 8 18Z" fill="black"></path>
+<path d="M16 18C17.1046 18 18 17.1046 18 16C18 14.8954 17.1046 14 16 14C14.8954 14 14 14.8954 14 16C14 17.1046 14.8954 18 16 18Z" fill="black"></path>
+<path d="M24 18C25.1046 18 26 17.1046 26 16C26 14.8954 25.1046 14 24 14C22.8954 14 22 14.8954 22 16C22 17.1046 22.8954 18 24 18Z" fill="black"></path>
+</symbol><symbol id="icon-menu"><path d="M0 0h25v2H0V0zm0 7h25v2H0V7zm0 7h25v2H0z" fill="#000"></path></symbol><symbol id="icon-phone"><path d="M12.75 22.995a11.15 11.15 0 01-5.46-1.406L0 24.495l2.906-7.289a11.15 11.15 0 01-1.406-5.46c0-1.532.297-2.99.89-4.372.594-1.383 1.395-2.578 2.403-3.586S6.996 1.98 8.379 1.386a10.96 10.96 0 014.371-.89c1.531 0 2.988.296 4.371.89a11.32 11.32 0 013.586 2.402 11.32 11.32 0 012.402 3.586A10.96 10.96 0 0124 11.745c0 1.531-.297 2.988-.89 4.371-.594 1.383-1.395 2.578-2.403 3.586s-2.203 1.809-3.586 2.402a10.96 10.96 0 01-4.371.891zm3.75-9H15l-.844.75c-.703-.187-1.566-.793-2.59-1.816-1.023-1.024-1.629-1.887-1.816-2.59l.75-.844v-1.5c0-.266-.094-.531-.281-.797-.188-.265-.395-.457-.621-.574-.227-.117-.387-.129-.48-.035L8.015 7.69c-.61.61-.7 1.559-.27 2.848.43 1.29 1.25 2.54 2.461 3.75 1.211 1.211 2.461 2.031 3.75 2.461 1.29.43 2.238.34 2.848-.27l1.101-1.101c.094-.094.082-.254-.035-.48-.117-.227-.308-.434-.574-.622-.266-.187-.531-.28-.797-.28z" fill="#000"></path></symbol><symbol id="icon-remove" viewBox="0 0 17 17">
+<path d="M4 6.5C4.13261 6.5 4.25979 6.55268 4.35355 6.64645C4.44732 6.74021 4.5 6.86739 4.5 7V13C4.5 13.1326 4.44732 13.2598 4.35355 13.3536C4.25979 13.4473 4.13261 13.5 4 13.5C3.86739 13.5 3.74021 13.4473 3.64645 13.3536C3.55268 13.2598 3.5 13.1326 3.5 13V7C3.5 6.86739 3.55268 6.74021 3.64645 6.64645C3.74021 6.55268 3.86739 6.5 4 6.5ZM6.5 6.5C6.63261 6.5 6.75979 6.55268 6.85355 6.64645C6.94732 6.74021 7 6.86739 7 7V13C7 13.1326 6.94732 13.2598 6.85355 13.3536C6.75979 13.4473 6.63261 13.5 6.5 13.5C6.36739 13.5 6.24021 13.4473 6.14645 13.3536C6.05268 13.2598 6 13.1326 6 13V7C6 6.86739 6.05268 6.74021 6.14645 6.64645C6.24021 6.55268 6.36739 6.5 6.5 6.5ZM9.5 7C9.5 6.86739 9.44732 6.74021 9.35355 6.64645C9.25979 6.55268 9.13261 6.5 9 6.5C8.86739 6.5 8.74021 6.55268 8.64645 6.64645C8.55268 6.74021 8.5 6.86739 8.5 7V13C8.5 13.1326 8.55268 13.2598 8.64645 13.3536C8.74021 13.4473 8.86739 13.5 9 13.5C9.13261 13.5 9.25979 13.4473 9.35355 13.3536C9.44732 13.2598 9.5 13.1326 9.5 13V7Z" fill="black"></path>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13 4C13 4.26522 12.8946 4.51957 12.7071 4.70711C12.5196 4.89464 12.2652 5 12 5H11.5V14C11.5 14.5304 11.2893 15.0391 10.9142 15.4142C10.5391 15.7893 10.0304 16 9.5 16H3.5C2.96957 16 2.46086 15.7893 2.08579 15.4142C1.71071 15.0391 1.5 14.5304 1.5 14V5H1C0.734784 5 0.48043 4.89464 0.292893 4.70711C0.105357 4.51957 0 4.26522 0 4V3C0 2.73478 0.105357 2.48043 0.292893 2.29289C0.48043 2.10536 0.734784 2 1 2H4.5C4.5 1.73478 4.60536 1.48043 4.79289 1.29289C4.98043 1.10536 5.23478 1 5.5 1H7.5C7.76522 1 8.01957 1.10536 8.20711 1.29289C8.39464 1.48043 8.5 1.73478 8.5 2H12C12.2652 2 12.5196 2.10536 12.7071 2.29289C12.8946 2.48043 13 2.73478 13 3V4ZM2.618 5L2.5 5.059V14C2.5 14.2652 2.60536 14.5196 2.79289 14.7071C2.98043 14.8946 3.23478 15 3.5 15H9.5C9.76522 15 10.0196 14.8946 10.2071 14.7071C10.3946 14.5196 10.5 14.2652 10.5 14V5.059L10.382 5H2.618ZM1 4V3H12V4H1Z" fill="black"></path>
+</symbol><symbol id="icon-ruble" viewBox="0 0 30 42">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18.5 6H10V17H18.5C21.5376 17 24 14.5376 24 11.5C24 8.46243 21.5376 6 18.5 6ZM4 0V23H18.5C24.8513 23 30 17.8513 30 11.5C30 5.14873 24.8513 0 18.5 0H4Z"></path>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 17H6V23H0V17Z"></path>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.65854 28.3214V18H9.65854V28.3214H21V34.3214H9.65854V42H3.65854V34.3214H0V28.3214H3.65854Z"></path>
+</symbol><symbol id="icon-search" viewBox="0 0 18 18">
+<path d="M10.7856 0.176758C7.00352 0.176758 3.92408 3.25607 3.92408 7.03798C3.92408 8.68124 4.50045 10.1873 5.46792 11.3695L0 16.8358L0.987368 17.8238L6.4546 12.3561C7.67563 13.3571 9.20665 13.9026 10.7856 13.8992C14.5676 13.8992 17.6471 10.8199 17.6471 7.03798C17.6471 3.25607 14.5676 0.176758 10.7856 0.176758ZM10.7856 1.549C13.8252 1.549 16.2748 3.99846 16.2748 7.03798C16.2748 10.0775 13.8252 12.527 10.7856 12.527C7.74593 12.527 5.29638 10.0775 5.29638 7.03798C5.29638 3.99846 7.74593 1.549 10.7856 1.549Z"></path>
+</symbol><symbol id="icon-tick" viewBox="0 0 18 11">
+<path d="M12.4682 0.41486C12.378 0.343403 12.2744 0.290527 12.1636 0.259284C12.0528 0.228042 11.9369 0.219051 11.8227 0.232831C11.7084 0.246611 11.5979 0.282889 11.4977 0.339571C11.3975 0.396254 11.3095 0.472218 11.2389 0.56308L5.13569 8.41001L2.14514 4.76554C2.075 4.67217 1.9868 4.59384 1.8858 4.5352C1.7848 4.47657 1.67305 4.43882 1.55718 4.4242C1.44131 4.40958 1.32368 4.41839 1.21128 4.45011C1.09888 4.48182 0.994001 4.5358 0.902861 4.60883C0.811722 4.68186 0.736183 4.77245 0.680729 4.87523C0.625274 4.97802 0.591035 5.09089 0.580042 5.20716C0.56905 5.32343 0.581529 5.44073 0.616739 5.55208C0.651948 5.66344 0.709171 5.76658 0.785009 5.8554L4.42075 10.3717C4.50281 10.4729 4.60649 10.5544 4.72418 10.6102C4.84187 10.666 4.97056 10.6948 5.10082 10.6943C5.23908 10.7005 5.37682 10.6737 5.50266 10.6161C5.6285 10.5585 5.73881 10.4717 5.82448 10.363L12.6513 1.64421C12.7209 1.55182 12.7714 1.44649 12.7999 1.33438C12.8284 1.22226 12.8343 1.1056 12.8173 0.991184C12.8002 0.876767 12.7606 0.766886 12.7007 0.667941C12.6407 0.568995 12.5617 0.482965 12.4682 0.41486ZM16.8276 0.41486C16.7374 0.343403 16.6338 0.290527 16.523 0.259284C16.4122 0.228042 16.2963 0.219051 16.1821 0.232831C16.0678 0.246611 15.9573 0.282889 15.8571 0.339571C15.7569 0.396254 15.6689 0.472218 15.5983 0.56308L9.4951 8.41001L8.96325 7.7561L7.86468 9.16854L8.82375 10.363C8.90581 10.4642 9.00949 10.5457 9.12718 10.6015C9.24486 10.6573 9.37356 10.6861 9.50382 10.6856C9.63478 10.685 9.76392 10.6549 9.88165 10.5976C9.99939 10.5402 10.1027 10.4571 10.1839 10.3543L17.0107 1.63549C17.0789 1.54337 17.1283 1.43869 17.1561 1.32744C17.1838 1.2162 17.1893 1.10058 17.1723 0.987202C17.1553 0.873823 17.1161 0.764911 17.057 0.666701C16.9978 0.568491 16.9199 0.482911 16.8276 0.41486Z" fill="black"></path>
+<path d="M5.5715 6.38759L6.69623 4.97515L6.52185 4.76589C6.45302 4.67053 6.3656 4.59008 6.26486 4.52938C6.16412 4.46868 6.05214 4.42899 5.93566 4.4127C5.81918 4.39641 5.70061 4.40385 5.58708 4.43459C5.47356 4.46532 5.36742 4.5187 5.27506 4.59152C5.1855 4.66347 5.11104 4.75241 5.05596 4.85323C5.00088 4.95405 4.96626 5.06477 4.95411 5.17901C4.94196 5.29325 4.9525 5.40877 4.98514 5.51892C5.01777 5.62907 5.07186 5.73169 5.14428 5.82087L5.5715 6.38759Z" fill="black"></path>
+</symbol><symbol id="icon-user" viewBox="0 0 19 18">
+<path d="M9.35283 0.103516C5.95136 0.103516 3.17636 2.62624 3.17636 5.71849C3.17636 7.65164 4.26165 9.36822 5.90636 10.3813C2.759 11.6086 0.529297 14.4482 0.529297 17.7506H2.294C2.294 14.1971 5.444 11.3335 9.35283 11.3335C13.2617 11.3335 16.4116 14.1971 16.4116 17.7506H18.1764C18.1764 14.4482 15.9466 11.6094 12.7993 10.3805C13.6387 9.86537 14.3265 9.17105 14.8024 8.35832C15.2783 7.54559 15.5279 6.63921 15.5293 5.71849C15.5293 2.62624 12.7543 0.103516 9.35283 0.103516ZM9.35283 1.70779C11.7996 1.70779 13.7646 3.49416 13.7646 5.71849C13.7646 7.94282 11.7996 9.72918 9.35283 9.72918C6.90606 9.72918 4.94106 7.94282 4.94106 5.71849C4.94106 3.49416 6.90606 1.70779 9.35283 1.70779Z"></path>
+</symbol><symbol id="icon-vk" viewBox="0 0 23 23"><path d="M14.992 0H8.287C2.166 0 .715 1.503.715 7.841v6.947c0 6.338 1.45 7.841 7.57 7.841h6.707c6.12 0 7.572-1.503 7.572-7.841V7.84c0-6.337-1.466-7.84-7.572-7.84zm3.361 16.142h-1.586c-.6 0-.786-.493-1.867-1.627-.939-.943-1.354-1.068-1.586-1.068-.327 0-.42.095-.42.56v1.484c0 .398-.12.637-1.138.637-1.682 0-3.549-1.053-4.857-3.016-1.974-2.877-2.514-5.032-2.514-5.477 0-.24.092-.464.536-.464h1.59c.402 0 .555.192.711.637.786 2.35 2.095 4.408 2.635 4.408.2 0 .291-.095.291-.622V9.167c-.06-1.12-.63-1.215-.63-1.613 0-.191.154-.383.399-.383h2.5c.337 0 .462.192.462.604v3.274c0 .354.153.479.245.479.2 0 .37-.126.74-.509 1.14-1.326 1.959-3.37 1.959-3.37.106-.24.291-.464.693-.464h1.59c.476 0 .583.254.476.608-.199.957-2.144 3.8-2.144 3.8-.167.287-.232.413 0 .733.17.24.726.737 1.095 1.182.68.8 1.202 1.47 1.34 1.934.157.46-.074.7-.522.7h.002z"></path></symbol><symbol id="icon-wa"><path d="M12.75 22.995a11.15 11.15 0 01-5.46-1.406L0 24.495l2.906-7.289a11.15 11.15 0 01-1.406-5.46c0-1.532.297-2.99.89-4.372.594-1.383 1.395-2.578 2.403-3.586S6.996 1.98 8.379 1.386a10.96 10.96 0 014.371-.89c1.531 0 2.988.296 4.371.89a11.32 11.32 0 013.586 2.402 11.32 11.32 0 012.402 3.586A10.96 10.96 0 0124 11.745c0 1.531-.297 2.988-.89 4.371-.594 1.383-1.395 2.578-2.403 3.586s-2.203 1.809-3.586 2.402a10.96 10.96 0 01-4.371.891zm3.75-9H15l-.844.75c-.703-.187-1.566-.793-2.59-1.816-1.023-1.024-1.629-1.887-1.816-2.59l.75-.844v-1.5c0-.266-.094-.531-.281-.797-.188-.265-.395-.457-.621-.574-.227-.117-.387-.129-.48-.035L8.015 7.69c-.61.61-.7 1.559-.27 2.848.43 1.29 1.25 2.54 2.461 3.75 1.211 1.211 2.461 2.031 3.75 2.461 1.29.43 2.238.34 2.848-.27l1.101-1.101c.094-.094.082-.254-.035-.48-.117-.227-.308-.434-.574-.622-.266-.187-.531-.28-.797-.28z" fill="#000"></path></symbol><symbol id="icon-youtube" viewBox="0 0 40 28"><path d="M38.447 4.723a4.826 4.826 0 00-3.404-3.407C32.04.508 20 .508 20 .508s-12.04 0-15.043.803A4.818 4.818 0 001.554 4.72C.75 7.727.75 14 .75 14s0 6.273.804 9.277a4.825 4.825 0 003.403 3.407c3.003.808 15.043.808 15.043.808s12.04 0 15.043-.808a4.818 4.818 0 003.404-3.407c.803-3.004.803-9.277.803-9.277s0-6.273-.803-9.277zM16.175 19.758V8.242l9.969 5.715-9.97 5.8z" fill="#fff"></path></symbol></svg>
+    </div>
+    <header class="header">
+      <div class="header-top">
+  <nav class="main-nav header-top__main-nav">
+    <a class="main-nav__logo header-top__logo" href="main.html">
+      <img class="main-nav__logo-img header-top__logo-img" src="img/svg/logo.svg" width="75" height="30" alt="Логотип интернет-магазина GEN">
+      <img class="main-nav__logo-img main-nav__logo-img--sym-white" src="img/svg/logo-sym-white.svg" width="107" height="62" alt="Логотип интернет-магазина GEN">
+    </a>
+    <ul class="main-nav__list main-nav__list--major" hidden="">
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">
+          Коллекции
+          <svg class="main-nav__icon" width="7" height="9" role="img">
+            <use xlink:href="#icon-arrow-down"></use>
+          </svg>
+        </a>
+        <ul class="main-nav__sublist">
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Руфина Базлова</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Яков Коган</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Виктор Меламед</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Классный дизайнер</a>
+          </li>
+        </ul>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">
+          Одежда с принтами
+          <svg class="main-nav__icon" width="7" height="9" role="img">
+            <use xlink:href="#icon-arrow-down"></use>
+          </svg>
+        </a>
+        <ul class="main-nav__sublist">
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Футболки</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink main-nav__sublink--sale" href="#">Поло</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Толстовки</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Вязаные вещи</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Верхняя одежда</a>
+          </li>
+        </ul>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">
+          Одежда без принтов
+          <svg class="main-nav__icon" width="7" height="9" role="img">
+            <use xlink:href="#icon-arrow-down"></use>
+          </svg>
+        </a>
+        <ul class="main-nav__sublist">
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Футболки</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Поло</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink main-nav__sublink--sale" href="#">Толстовки</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Вязаные майки</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Шарф</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <ul class="main-nav__list" hidden="">
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">
+          Аксессуары
+          <svg class="main-nav__icon" width="7" height="9" role="img">
+            <use xlink:href="#icon-arrow-down"></use>
+          </svg>
+        </a>
+        <ul class="main-nav__sublist">
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Ремень</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Сумка</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink main-nav__sublink--sale" href="#">Стиральный порошок</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Краска</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Вешалка</a>
+          </li>
+        </ul>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">
+          Дом
+          <svg class="main-nav__icon" width="7" height="9" role="img">
+            <use xlink:href="#icon-arrow-down"></use>
+          </svg>
+        </a>
+        <ul class="main-nav__sublist">
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Пентхауз</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Лофт</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink main-nav__sublink--sale" href="#">Хрущевка</a>
+          </li>
+        </ul>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">
+          Путешествия
+          <svg class="main-nav__icon" width="7" height="9" role="img">
+            <use xlink:href="#icon-arrow-down"></use>
+          </svg>
+        </a>
+        <ul class="main-nav__sublist">
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Рюкзак</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Сумка</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink main-nav__sublink--sale" href="#">Чемодан</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Кепка</a>
+          </li>
+        </ul>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">
+          Гаджеты
+          <svg class="main-nav__icon" width="7" height="9" role="img">
+            <use xlink:href="#icon-arrow-down"></use>
+          </svg>
+        </a>
+        <ul class="main-nav__sublist">
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Смартфон</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Нафигатор</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink main-nav__sublink--sale" href="#">Фитнес-браслет</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Брелок с Wi-Fi</a>
+          </li>
+        </ul>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">
+          Канцелярия
+          <svg class="main-nav__icon" width="7" height="9" role="img">
+            <use xlink:href="#icon-arrow-down"></use>
+          </svg>
+        </a>
+        <ul class="main-nav__sublist">
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Кнопки</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Клей</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink main-nav__sublink--sale" href="#">Скрепки</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Ручки</a>
+          </li>
+          <li class="main-nav__subitem">
+            <a class="main-nav__sublink" href="#">Карандаши</a>
+          </li>
+        </ul>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">
+          Сертификаты
+        </a>
+      </li>
+    </ul>
+    <ul class="main-nav__list main-nav__list--extra" hidden="">
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">
+          Доставка и оплата
+        </a>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">
+          FAQ
+        </a>
+      </li>
+    </ul>
+    <a class="main-nav__sale" href="#">
+      Sale
+    </a>
+    <button class="main-nav__close-btn" type="button" aria-label="Закрыть меню">
+      <svg class="main-nav__close-icon" width="20" height="20" aria-hidden="true" focusable="false">
+        <use xlink:href="#icon-close"></use>
+      </svg>
+    </button>
+  </nav>
+  <button class="header-top__btn" type="button" aria-label="Открыть меню">
+    <svg class="header-top__btn-icon" width="25" height="16" aria-hidden="true" focusable="false">
+      <use xlink:href="#icon-menu"></use>
+    </svg>
+  </button>
+  <a class="header-top__gift-link" href="#">Подарок к каждому заказу</a>
+  <form class="search-form header-top__form">
+    <svg class="search-form__icon header-top__search-form-icon" width="18" height="18" role="img">
+      <use xlink:href="#icon-search"></use>
+    </svg>
+    <label class="search-form__label">
+      <input type="search">
+    </label>
+    <button class="search-form__close-search-btn" type="button" aria-label="Закрыть поиск">
+      <svg class="search-form__close-search-icon" width="13" height="13" aria-hidden="true" focusable="false">
+        <use xlink:href="#icon-close-search"></use>
+      </svg>
+    </button>
+    <ul class="search-form__results">
+      <li class="search-form__result">
+        <a class="search-form__result-link" href="#" aria-label="Результат поиска">
+          Футболка с принтами <span class="search-form__result-count">220</span>
+          <svg class="search-form__result-icon" width="9" height="10" role="img">
+            <use xlink:href="#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="search-form__result">
+        <a class="search-form__result-link" href="#" aria-label="Результат поиска">
+          Футболка женская <span class="search-form__result-count">308</span>
+          <svg class="search-form__result-icon" width="9" height="10" role="img">
+            <use xlink:href="#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="search-form__result">
+        <a class="search-form__result-link" href="#" aria-label="Результат поиска">
+          Футболка Меламед <span class="search-form__result-count">20</span>
+          <svg class="search-form__result-icon" width="9" height="10" role="img">
+            <use xlink:href="#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="search-form__result">
+        <a class="search-form__result-link" href="#" aria-label="Результат поиска">
+          Футболка белая <span class="search-form__result-count">80</span>
+          <svg class="search-form__result-icon" width="9" height="10" role="img">
+            <use xlink:href="#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="search-form__result">
+        <a class="search-form__result-link" href="#" aria-label="Результат поиска">
+          Футболка белая женская <span class="search-form__result-count">41</span>
+          <svg class="search-form__result-icon" width="9" height="10" role="img">
+            <use xlink:href="#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="search-form__result">
+        <a class="search-form__result-link" href="#" aria-label="Результат поиска">
+          Футболка детская <span class="search-form__result-count">108</span>
+          <svg class="search-form__result-icon" width="9" height="10" role="img">
+            <use xlink:href="#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </form>
+  <div class="user-nav header-top__user-nav">
+    <ul class="user-nav__list">
+      <li class="user-nav__item user-nav__item--search" hidden="">
+        <a class="user-nav__link" href="#" aria-label="Поиск">
+          <svg class="user-nav__user-icon header-top__search-icon" width="18" height="18" role="img">
+            <use xlink:href="#icon-search"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="user-nav__item user-nav__item--cabinet">
+        <a class="user-nav__link" href="#" aria-label="Личный кабинет">
+          <svg class="user-nav__user-icon header-top__user-icon" width="20" height="20" role="img">
+            <use xlink:href="#icon-user"></use>
+          </svg>
+          <span class="user-nav__link-text">Войти в личный кабинет</span>
+        </a>
+      </li>
+      <li class="user-nav__item">
+        <a class="user-nav__ites-link" href="#" aria-label="Избранное">
+          <svg class="user-nav__favorites-icon header-top__favorites-icon" width="23" height="22" role="img">
+            <use xlink:href="#icon-heart"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="user-nav__item">
+        <a class="user-nav__link" href="#" aria-label="Корзина">
+          <svg class="user-nav__cart-icon header-top__cart-icon" width="20" height="20" role="img">
+            <use xlink:href="#icon-cart"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="header-top__promo" hidden="">
+    <img class="header-top__promo-img" src="img/content/img-header-promo.png" width="358" height="202" alt="Новая коллекция Виктора Меламеда">
+    <img class="header-top__promo-img" src="img/content/img-header-discont.png" width="378" height="93" alt="Скидка на футболки с принтами">
+  </div>
+</div>
+
+    </header>
+    <main>
+      <h1 class="visually-hidden">Корзина товаров</h1>
+      <section class="cart">
+        <h2>Корзина</h2>
+        <div class="cart__inner">
+          <ul class="list-reset cart__list">
+            <li class="cart__item">
+              <button class="btn close cart__close" aria-label="Закрыть"></button>
+              <button class="btn cart__btn-open" aria-label="Открыть избранное">
+                <svg width="32" height="32">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-horizontal"></use>
+                </svg>
+              </button>
+              <div class="cart__wrap">
+                <div class="cart__description-wrap">
+                  <h3>Футболка женская «Прикоснуться словами»</h3>
+                  <p>Антон тут рядом</p>
+                  <div class="cart__description">
+                    <dl class="cart__description-list description-list">
+                      <dt>Цвет</dt>
+                      <dd>Белый</dd>
+                      <dt>Размер</dt>
+                      <dd>44,&nbsp;S</dd>
+                    </dl>
+                    <b>790
+                      <svg width="18" height="20">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                      </svg>
+                    </b>
+                  </div>
+                  <div class="cart__field-num field-num">
+                    <div class="field-num__inner">
+                      <button class="btn field-num__btn field-num__btn--minus" type="button">-</button>
+                      <button class="btn field-num__btn field-num__btn--plus" type="button">+</button>
+                      <input class="field-num__input" type="number" value="1" name="quantity" max="10" min="1" step="1" readonly="">
+                    </div>
+                  </div>
+                </div>
+                <div class="cart__img-wrap">
+                  <picture>
+                    <source type="image/webp" srcset="img/content/img-tshirt-cart@1x.webp, img/content/img-tshirt-cart@2x.webp 2x">
+                    <!-- 1х: 168px; 2x: 336px -->
+                    <img src="img/content/img-tshirt-cart@1x.jpg" srcset="img/content/img-tshirt-cart@2x.jpg 2x" width="168" height="200" alt="Футболка женская">
+                  </picture>
+                </div>
+              </div>
+            </li>
+            <li class="cart__item">
+              <button class="btn close cart__close" aria-label="Закрыть"></button>
+              <button class="btn cart__btn-open">
+                <svg width="32" height="32">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-horizontal"></use>
+                </svg>
+              </button>
+              <div class="cart__wrap">
+                <div class="cart__description-wrap">
+                  <h3>Футболка женская «Прикоснуться словами»</h3>
+                  <p>Антон тут рядом</p>
+                  <div class="cart__description">
+                    <dl class="cart__description-list description-list">
+                      <dt>Цвет</dt>
+                      <dd>Белый</dd>
+                      <dt>Размер</dt>
+                      <dd>44,&nbsp;S</dd>
+                    </dl>
+                    <div class="cart__price-wrap price">
+                      <b class="price__discount">790
+                        <svg width="10" height="12">
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                        </svg>
+                      </b>
+                      <b>590
+                        <svg width="18" height="20">
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                        </svg>
+                      </b>
+                    </div>
+                  </div>
+                  <div class="cart__field-num field-num">
+                    <div class="field-num__inner">
+                      <button class="btn field-num__btn field-num__btn--minus" type="button">-</button>
+                      <button class="btn field-num__btn field-num__btn--plus" type="button">+</button>
+                      <input type="number" value="1" name="quantity" max="10" min="1" step="1" readonly="">
+                    </div>
+                  </div>
+                </div>
+                <div class="cart__img-wrap">
+                  <picture>
+                    <source type="image/webp" srcset="img/content/img-hoodie-cart@1x.webp, img/content/img-hoodie-cart@2x.webp 2x">
+                    <!-- 1х: 168px; 2x: 336px -->
+                    <img src="img/content/img-hoodie-cart@1x.jpg" srcset="img/content/img-hoodie-cart@2x.jpg 2x" width="168" height="200" alt="Футболка женская">
+                  </picture>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="cart__result result">
+            <div class="result__container">
+              <div class="result__wrap">
+                <div class="result__info">
+                  <p>Итого</p>
+                  <span>2 товара</span>
+                </div>
+                <div class="result__price price">
+                  <b class="price__discount">1580
+                    <svg width="10" height="13">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                    </svg>
+                  </b>
+                  <b>1380
+                    <svg width="20" height="21">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                    </svg>
+                  </b>
+                  <span>2 товара</span>
+                </div>
+              </div>
+              <div class="result__gift">
+                <p>+&nbsp;Подарок к заказу</p>
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-gift"></use>
+                </svg>
+              </div>
+              <div class="result__discount">
+                <span>Скидка</span>
+                <b>-200
+                  <svg width="12" height="12">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                  </svg>
+                </b>
+              </div>
+              <input type="text" name="promocode" placeholder="Введите промокод">
+              <button class="btn result__btn" type="submit">Перейти к оформлению</button>
+              <p>У вас есть промокод? Вы можете ввести его на&nbsp;странице оплаты.</p>
+            </div>
+          </div>
+          <section class="gift">
+            <h2 class="visually-hidden">Подарок к заказу</h2>
+            <div class="gift__inner">
+              <p>
+                <span>Выбери подарок к заказу</span>
+                <svg width="28" height="30">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-gift"></use>
+                </svg>
+              </p>
+              <ul class="gift__list">
+                <li class="gift__item is-gift-active">
+                  <a class="card-gift" href="#">
+                    <div class="card-gift__img-wrap">
+                      <picture>
+                        <source type="image/webp" srcset="img/content/img-umbrella-gift@1x.webp, img/content/img-umbrella-gift@2x.webp 2x">
+                        <!-- 1х: 171px; 2x: 342px -->
+                        <img src="img/content/img-umbrella-gift@1x.jpg" srcset="img/img-umbrella-gift@2x.jpg 2x" width="171" height="164" alt="Зонт Unit basic">
+                      </picture>
+                    </div>
+                    <div class="card-gift__info">Бесплатно</div>
+                    <div class="card-gift__name">
+                      <p>Зонт</p>
+                      <span>Unit basic<span>
+                    </span></span></div>
+                  </a>
+                </li>
+                <li class="gift__item">
+                  <a class="card-gift" href="#">
+                    <div class="card-gift__img-wrap">
+                      <picture>
+                        <source type="image/webp" srcset="img/content/img-battery-gift@1x.webp, img/content/img-battery-gift@2x.webp 2x">
+                        <!-- 1х: 171px; 2x: 342px -->
+                        <img src="img/content/img-battery-gift@1x.jpg" srcset="img/img-battery-gift@2x.jpg 2x" width="171" height="164" alt="Беспроводной аккумулятор 2200мАч">
+                      </picture>
+                    </div>
+                    <div class="card-gift__info">Бесплатно</div>
+                    <div class="card-gift__name">
+                      <p>Беспроводной аккумулятор</p>
+                      <span>2200мАч</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="gift__item">
+                  <a class="card-gift" href="#">
+                    <div class="card-gift__img-wrap">
+                      <picture>
+                        <source type="image/webp" srcset="img/content/img-bottle-gift@1x.webp, img/content/img-bottle-gift@2x.webp 2x">
+                        <!-- 1х: 171px; 2x: 342px -->
+                        <img src="img/content/img-bottle-gift@1x.jpg" srcset="img/img-bottle-gift@2x.jpg 2x" width="171" height="164" alt="Бутылка для воды">
+                      </picture>
+                    </div>
+                    <div class="card-gift__info">Бесплатно</div>
+                    <div class="card-gift__name">
+                      <p>Бутылка для воды</p>
+                      <span>синяя</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section class="slider">
+  <div class="slider__inner">
+    <h2>Рекомендуем</h2>
+    <p>С этим товаром</p>
+    <div class="swiper-container">
+      <ul class="list-reset swiper-wrapper">
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product1-@1x.webp, img/slides/slider-product1-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product1-@1x.jpg" srcset="img/slides/slider-product1-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product2-@1x.webp, img/slides/slider-product2-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product2-@1x.jpg" srcset="img/slides/slider-product2-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product3-@1x.webp, img/slides/slider-product3-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product3-@1x.jpg" srcset="img/slides/slider-product3-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product4-@1x.webp, img/slides/slider-product4-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product4-@1x.jpg" srcset="img/slides/slider-product4-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product1-@1x.webp, img/slides/slider-product1-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product1-@1x.jpg" srcset="img/slides/slider-product1-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product2-@1x.webp, img/slides/slider-product2-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product2-@1x.jpg" srcset="img/slides/slider-product2-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product3-@1x.webp, img/slides/slider-product3-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product3-@1x.jpg" srcset="img/slides/slider-product3-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product4-@1x.webp, img/slides/slider-product4-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product4-@1x.jpg" srcset="img/slides/slider-product4-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product1-@1x.webp, img/slides/slider-product1-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product1-@1x.jpg" srcset="img/slides/slider-product1-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product2-@1x.webp, img/slides/slider-product2-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product2-@1x.jpg" srcset="img/slides/slider-product2-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product3-@1x.webp, img/slides/slider-product3-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product3-@1x.jpg" srcset="img/slides/slider-product3-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product4-@1x.webp, img/slides/slider-product4-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product4-@1x.jpg" srcset="img/slides/slider-product4-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product1-@1x.webp, img/slides/slider-product1-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product1-@1x.jpg" srcset="img/slides/slider-product1-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product2-@1x.webp, img/slides/slider-product2-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product2-@1x.jpg" srcset="img/slides/slider-product2-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product3-@1x.webp, img/slides/slider-product3-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product3-@1x.jpg" srcset="img/slides/slider-product3-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+        <li class="slider__item swiper-slide">
+          <button class="btn slider__btn-favourites" type="button" aria-label="В збранное">
+            <svg width="23" height="22">
+              <use xlink:href="#icon-heart"></use>
+            </svg>
+          </button>
+          <a class="slider__link" href="#">
+            <div class="slider__img-wrap">
+              <picture>
+                <source type="image/webp" srcset="img/slides/slider-product4-@1x.webp, img/slides/slider-product4-@2x.webp 2x">
+                <!-- 1х: 246px; 2x: 492px -->
+                <img src="img/slides/slider-product4-@1x.jpg" srcset="img/slides/slider-product4-@2x.jpg 2x" width="246" height="278" alt="Футболка с названием">
+              </picture>
+            </div>
+            <div class="price">
+              <b class="price__discount">790
+                <svg width="10" height="12">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+              <b>599
+                <svg width="18" height="20">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ruble"></use>
+                </svg>
+              </b>
+            </div>
+            <p>Футболка с названием</p>
+          </a>
+          <span>Автор</span>
+          <button class="btn slider__btn" type="button">В корзину</button>
+        </li>
+      </ul>
+    </div>
+    <button class="slider__arrow slider__arrow--prev" type="button"></button>
+    <button class="slider__arrow slider__arrow--next" type="button"></button>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__wrap">
+      <a class="footer__logo">
+        <img src="img/svg/logo-footer.svg" width="210" height="121" alt="Логотип">
+      </a>
+      <div class="footer__item footer__item--about-us">
+        <h2 class="footer__header">О нас</h2>
+        <ul class="list-reset footer__list">
+          <li>
+            <a href="#">Блог</a>
+          </li>
+          <li>
+            <a href="#">Коллекции</a>
+          </li>
+          <li>
+            <a href="#">Работа у нас</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__item footer__item--cooperation">
+        <h2 class="footer__header">Сотрудничество</h2>
+        <ul class="list-reset footer__list">
+          <li>
+            <a href="#">Что-то</a>
+          </li>
+          <li>
+            <a href="#">Стать автором</a>
+          </li>
+          <li>
+            <a href="#">Предложить идею</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__item footer__item--buyers">
+        <h2 class="footer__header">Покупателям</h2>
+        <ul class="list-reset footer__list">
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <li>
+            <a href="#">Бонусная программа</a>
+          </li>
+          <li>
+            <a href="#">Доставка</a>
+          </li>
+          <li>
+            <a href="#">Условия оферты</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__item footer__item--contacts">
+        <a class="footer__header-link" href="contacts.html">Контакты</a>
+        <ul class="list-reset footer__list">
+          <li>
+            <a href="#">Отзывы</a>
+          </li>
+        </ul>
+        <ul class="list-reset footer__social social">
+          <li class="social__item">
+            <a class="social__link" target="_blank" title="Инстаграм" href="#" aria-label="Мы в Инстаграме">
+              <svg width="22" height="22">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-insta"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" target="_blank" title="Вконтакте" href="#" aria-label="Мы в контакте">
+              <svg width="22" height="22">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" target="_blank" title="Фейсбук" href="#" aria-label="Мы в фейсбуке">
+              <svg width="22" height="22">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fb"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p>©&nbsp;<a class="footer__link-copyright" href="https://Gen.RU">Gen.RU</a>&nbsp;культурный код</p>
+    <div class="footer__wrap-sm">
+      <ul class="list-reset footer__list">
+        <li>
+          <a href="blog.html">Блог</a>
+        </li>
+        <li>
+          <a href="#">Программа лояльности</a>
+        </li>
+        <li>
+          <a href="#">Доставка и оплата</a>
+        </li>
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+      </ul>
+      <div class="footer__contacts">
+        <p>Свяжитесь с нами</p>
+        <ul class="list-reset footer__contacts-list">
+          <li>
+            <p>Санкт-Петербург, ул. Марата, д. 63</p>
+          </li>
+          <li>
+            <a href="tel:88007776102">8-800-777-61-02</a>
+          </li>
+          <li>
+            <a href="mailto:hello@e.gen.ru">hello@e.gen.ru</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="list-reset footer__social social">
+        <li class="social__item">
+          <a class="social__link" target="_blank" title="Инстаграм" href="#" aria-label="Мы в Инстаграме">
+            <svg width="30" height="30">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-insta"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" target="_blank" title="Вконтакте" href="#" aria-label="Мы в контакте">
+            <svg width="30" height="30">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-vk"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" target="_blank" title="Фейсбук" href="#" aria-label="Мы в фейсбуке">
+            <svg width="30" height="30">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fb"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--youtube" target="_blank" title="Ютуб" href="#" aria-label="Мы в ютубе">
+            <svg width="40" height="27">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+    <!-- <div class="modal modal--preload modal--@@name @@if (context.responsive) { modal--responsive } @@if (context.fitContent) { modal--fit-content } @@if (context.noScale) { modal--no-scale } @@if (context.mod) { modal--@@mod }">
+  <div class="modal__wrapper">
+    <div class="modal__overlay"></div>
+    <div class="modal__content">
+      @@include("source/html/components/modal-@@name.html")
+      <button class="modal__close-btn btn-reset" type="button" aria-label="Закрыть попап">
+        <svg width="15" height="15">
+          <use xlink:href="#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div> -->
+
+
+<div class="modal popup-favourites">
+  <button class="btn close popup-favourites__close" aria-label="Закрыть"></button>
+  <button class="btn popup-favourites__btn" aria-label="Добавить в избранное">
+    <svg width="13" height="12">
+      <use xlink:href="#icon-heart"></use>
+    </svg>
+    Добавить в избранное
+  </button>
+  <button class="btn popup-favourites__btn popup-favourites__btn--remove" aria-label="Удалить">
+    <svg width="17" height="17">
+      <use xlink:href="#icon-remove"></use>
+    </svg>
+    Удалить
+  </button>
+</div>
+
+    <div class="overlay"></div>
+    <script src="js/vendor.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+
+</html>
